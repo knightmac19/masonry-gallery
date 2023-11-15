@@ -1,0 +1,115 @@
+:root {
+  --primary: #d8a7ca;
+  --secondary: #72b01d;
+  --tertiary: #73a6ad;
+  --quaternary: #f26430;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #333;
+}
+h1 {
+  text-align: center;
+  color: #efefef;
+  margin: 40px 0px;
+}
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+  grid-template-areas:
+    "item-1 item-1 item-1 item-1 item-2 item-2 item-3 item-3 item-4 item-4 item-4 item-4"
+    "item-1 item-1 item-1 item-1 item-2 item-2 item-3 item-3 item-4 item-4 item-4 item-4"
+    "item-1 item-1 item-1 item-1 item-2 item-2 item-7 item-7 item-8 item-9 item-9 item-9"
+    "item-1 item-1 item-1 item-1 item-2 item-2 item-7 item-7 item-8 item-9 item-9 item-9"
+    "item-1 item-1 item-1 item-1 item-2 item-2 item-7 item-7 item-11 item-11 item-11 item-11"
+    "item-5 item-5 item-6 item-6 item-2 item-2 item-7 item-7 item-11 item-11 item-11 item-11"
+    "item-5 item-5 item-10 item-10 item-2 item-2 item-7 item-7 item-11 item-11 item-11 item-11"
+    "item-5 item-5 item-10 item-10 item-2 item-2 item-7 item-7 item-11 item-11 item-11 item-11"
+    "item-5 item-5 item-10 item-10 item-2 item-2 item-7 item-7 item-11 item-11 item-11 item-11"
+    "item-5 item-5 item-10 item-10 item-13 item-13 item-13 item-13 item-11 item-11 item-11 item-11"
+    "item-12 item-12 item-12 item-12 item-13 item-13 item-13 item-13 item-11 item-11 item-11 item-11"
+    "item-12 item-12 item-12 item-12 item-13 item-13 item-13 item-13 item-11 item-11 item-11 item-11"
+    "item-12 item-12 item-12 item-12 item-13 item-13 item-13 item-13 item-14 item-14 item-14 item-14";
+  width: 75%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid white;
+  color: #efefef;
+  gap: 5px;
+}
+.grid-item {
+  border: 1px dotted #efefef;
+  background-color: var(--quaternary);
+  border-radius: 4px;
+}
+
+.item-1,
+.item-11,
+.item-13 {
+  background-color: var(--primary);
+}
+
+.item-2,
+.item-4,
+.item-5,
+.item-12 {
+  background-color: var(--secondary);
+}
+
+.item-3,
+.item-6,
+.item-8,
+.item-14 {
+  background-color: var(--tertiary);
+}
+
+.item-1 {
+  grid-area: item-1;
+}
+.item-2 {
+  grid-area: item-2;
+}
+.item-3 {
+  grid-area: item-3;
+}
+.item-4 {
+  grid-area: item-4;
+}
+.item-5 {
+  grid-area: item-5;
+}
+.item-6 {
+  grid-area: item-6;
+}
+.item-7 {
+  grid-area: item-7;
+}
+.item-8 {
+  grid-area: item-8;
+}
+.item-9 {
+  grid-area: item-9;
+}
+.item-10 {
+  grid-area: item-10;
+}
+.item-11 {
+  grid-area: item-11;
+}
+.item-12 {
+  grid-area: item-12;
+}
+.item-13 {
+  grid-area: item-13;
+}
+.item-14 {
+  grid-area: item-14;
+}
