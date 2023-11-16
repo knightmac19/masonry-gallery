@@ -21,6 +21,8 @@ h1 {
   margin: 40px 0px;
 }
 .masonry-grid {
+  width: 700px;
+  /* max-width: 500px; */
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(13, 1fr);
@@ -38,12 +40,12 @@ h1 {
     "item-12 item-12 item-12 item-12 item-13 item-13 item-13 item-13 item-11 item-11 item-11 item-11"
     "item-12 item-12 item-12 item-12 item-13 item-13 item-13 item-13 item-11 item-11 item-11 item-11"
     "item-12 item-12 item-12 item-12 item-13 item-13 item-13 item-13 item-14 item-14 item-14 item-14";
-  width: 75%;
   margin: 0 auto;
   padding: 1rem;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   color: #efefef;
   gap: 5px;
+  margin-bottom: 80px;
 }
 .grid-item {
   border: 1px dotted #efefef;
@@ -112,4 +114,65 @@ h1 {
 }
 .item-14 {
   grid-area: item-14;
+}
+
+div .img-1 {
+  background-image: url(./imgs/1-img.jpeg);
+  border: none;
+}
+div .img-2 {
+  background-image: url(./imgs/2-img.jpeg);
+  border: none;
+}
+div .img-3 {
+  background-image: url(./imgs/3-img.jpeg);
+  border: none;
+}
+div .img-4 {
+  background-image: url(./imgs/4-img.jpeg);
+  border: none;
+}
+div .img-5 {
+  background-image: url(./imgs/5-img.jpeg);
+  border: none;
+}
+div .img-6 {
+  background-image: url(./imgs/6-img.jpeg);
+  border: none;
+}
+div .img-7 {
+  background-image: url(./imgs/7-img.jpeg);
+  border: none;
+}
+div .img-8 {
+  background-image: url(./imgs/8-img.jpeg);
+  border: none;
+}
+div .img-9 {
+  background-image: url(./imgs/9-img.jpeg);
+  border: none;
+}
+div .img-10 {
+  background-image: url(./imgs/10-img.jpeg);
+  border: none;
+}
+div .img-11 {
+  background-image: url(./imgs/11-img.jpeg);
+  border: none;
+}
+div .img-12 {
+  background-image: url(./imgs/12-img.jpeg);
+  border: none;
+}
+div .img-13 {
+  background-image: url(./imgs/13-img.jpeg);
+  border: none;
+}
+div .img-14 {
+  background-image: url(./imgs/14-img.jpeg);
+  border: none;
+}
+
+span {
+  visibility: hidden;
 }
